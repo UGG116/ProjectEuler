@@ -5,3 +5,4 @@
 
 num=1:999;
 result = sum(num(mod(num,3)==0 | mod(num,5)==0))
+% result = 233168
